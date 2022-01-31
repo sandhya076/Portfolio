@@ -33,7 +33,7 @@ body {
     -webkit-border-radius: 75%;
     -moz-border-radius: 75%;
     box-shadow: 0 0 0 1px #eee;
-    background: url("C:\Users\lavur\Desktop\tempprofile\src\components\Home\pic1.jpeg") center center no-repeat;
+    background: url("pic1.jpeg") center center no-repeat;
     background-size: cover;
     margin: auto;
     margin-top: 20px;
