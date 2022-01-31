@@ -1,4 +1,14 @@
+.nav{
+  font-family: raleway;
+  font-size: 25px;
+  position: absolute center;
+  padding-left: 0%;
+  color: blue;
+  margin-top: 20px;
+  margin-right: 90px;
+  background-color: white;
 
+}
   h1 {
     font-family: 'Vidaloka', serif;
     float: left;

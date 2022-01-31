@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Eo_circle_light-blue_white_letter-s.svg/1200px-Eo_circle_light-blue_white_letter-s.svg.png"
-              alt=""
-              width={30}
-              height={30}
-              className="d-inline-block align-text-top"
-            />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Eo_circle_light-blue_white_letter-s.svg/1200px-Eo_circle_light-blue_white_letter-s.svg.png"
+          alt=""
+          width={30}
+          height={30}
+          className="d-inline-block align-text-top"
+        />
         <a className="navbar-brand profile" href="#">
           My Profile
         </a>
@@ -30,30 +30,28 @@ export default function Home() {
         <div className="collapse navbar-collapse nav" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-item nav-link active" href="#">
-              Home 
+              Home
             </a>
-            <Link to = "/Skills">
-            <a className="nav-item nav-link" href="#">
-              Skills <span className="sr-only"></span>
-            </a>
+            <Link to="/Skills">
+              <a className="nav-item nav-link" href="#">
+                Skills <span className="sr-only"></span>
+              </a>
             </Link>
-           <Link to = "/Projects">
-           <a className="nav-item nav-link" href="#">
-             Projects <span className="sr-only"></span>
-            </a>
-           </Link>
-           <Link to = "/Contact">
-           <a className="nav-item nav-link " href="#">
-            Contact <span className="sr-only"></span>
-            </a>
-           
-           </Link>
-           <Link to = "/AboutMe">
-           <a className="nav-item nav-link " href="#">
-            AboutMe <span className="sr-only"></span>
-            </a>
-           
-           </Link>
+            <Link to="/Projects">
+              <a className="nav-item nav-link" href="#">
+                Projects <span className="sr-only"></span>
+              </a>
+            </Link>
+            <Link to="/Contact">
+              <a className="nav-item nav-link " href="#">
+                Contact <span className="sr-only"></span>
+              </a>
+            </Link>
+            <Link to="/AboutMe">
+              <a className="nav-item nav-link " href="#">
+                AboutMe <span className="sr-only"></span>
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -74,7 +72,9 @@ export default function Home() {
               <div className="trick"></div>
             </div>
             <ul className="text">SANDHYA LAVURI</ul>
-            <div className="text1">COMPITATIVE PROGRAMMER | FULL STACK DEVELOPER</div>
+            <div className="text1">
+              COMPITATIVE PROGRAMMER | FULL STACK DEVELOPER
+            </div>
             <div
               className="panel-group"
               id="accordion"

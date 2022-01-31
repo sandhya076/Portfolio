@@ -1,12 +1,65 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Projects.css";
 export default function Projects() {
   return (
     <>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Eo_circle_light-blue_white_letter-s.svg/1200px-Eo_circle_light-blue_white_letter-s.svg.png"
+          alt=""
+          width={30}
+          height={30}
+          className="d-inline-block align-text-top"
+        />
+        <a className="navbar-brand profile" href="#">
+          My Profile
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse nav" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <Link to = "/">
+            <a className="nav-item nav-link active" href="#">
+              Home
+            </a>
+            </Link>
+            <Link to="/Skills">
+              <a className="nav-item nav-link" href="#">
+                Skills <span className="sr-only"></span>
+              </a>
+            </Link>
+            <Link to="/Projects">
+              <a className="nav-item nav-link" href="#">
+                Projects <span className="sr-only"></span>
+              </a>
+            </Link>
+            <Link to="/Contact">
+              <a className="nav-item nav-link " href="#">
+                Contact <span className="sr-only"></span>
+              </a>
+            </Link>
+            <Link to="/AboutMe">
+              <a className="nav-item nav-link " href="#">
+                AboutMe <span className="sr-only"></span>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </nav>
+
       <div>
         <title>Bootstrap 4 Flip Card</title>
-        {/* Bootstrap core CSS */}
-        {/* Custom styles for this template */}
+        
         <link
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet"
@@ -17,9 +70,7 @@ export default function Projects() {
         />
         <section>
           <div className="container">
-            {/* <div className="row">
-        <h1 className="text-center"><span> BS 4 flip card</span>created with love by skinniwini</h1>
-      </div> */}
+           
             <div className="row">
               <div className="col-md-4">
                 <h3 className="text-center mb-5">Project 1</h3>
