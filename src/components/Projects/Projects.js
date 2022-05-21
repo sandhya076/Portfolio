@@ -218,8 +218,45 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+<div className="col-md-4">
                 <h3 className="text-center mb-5">Project-5</h3>
+                <div className="card-flipper effect__hover" data-id={1}>
+                  <div className="card__front">
+                    <div className="card card-01">
+                      <div className="profile-box-01">
+                        <img
+                          className="card-img-top"
+                          src="https://www.syncfusion.com/blogs/wp-content/uploads/2020/07/Top-10-SQL-Query-Optimization-Techniques.jpg"
+                          alt="Card image cap"
+                        />
+                      </div>
+                      <div className="card-body text-center">
+                        <span className="badge-box">
+                          <i className="fa fa-check" />
+                        </span>
+                        <h4 className="card-title">Atlan</h4>
+                        <p className="card-text">
+                          This is a react application which takes input as a sql
+                          quires and gives the appropriate output.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__back">
+                    <div className="card card-01">
+                      <div className="card-body text-center">
+                        <h4 className="card-title"></h4>
+                        <a href="https://atlan-task.vercel.app/">
+                          APP LINK
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <h3 className="text-center mb-5">Project-6</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
                     <div className="card card-01">
