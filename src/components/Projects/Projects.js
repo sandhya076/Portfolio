@@ -293,6 +293,43 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
+<div className="col-md-4">
+                <h3 className="text-center mb-5">Project-7</h3>
+                <div className="card-flipper effect__hover" data-id={1}>
+                  <div className="card__front">
+                    <div className="card card-01">
+                      <div className="profile-box-01">
+                        <img
+                          className="card-img-top"
+                          src="https://corkboardconcepts.com/wp-content/uploads/2021/04/GFLogo-1024x965.png"
+                          alt="Card image cap"
+                        />
+                      </div>
+                      <div className="card-body text-center">
+                        <span className="badge-box">
+                          <i className="fa fa-check" />
+                        </span>
+                        <h4 className="card-title">Google-Form</h4>
+                        <p className="card-text">
+                         This is a google form which was created by using MERN and also implemented 
+                         multer for uploading resume inthe fome
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__back">
+                    <div className="card card-01">
+                      <div className="card-body text-center">
+                        <h4 className="card-title"></h4>
+                        <a href="https://vercel.com/sandhya076/google-form-client">
+                          APP LINK
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
