@@ -285,7 +285,7 @@ export default function Projects() {
                     <div className="card card-01">
                       <div className="card-body text-center">
                         <h4 className="card-title"></h4>
-                        <a href="https://pem-joy-app.herokuapp.com/">
+                        <a href="https://pem-joy-app.herokuapp.com/ ">
                           APP LINK
                         </a>
                       </div>
