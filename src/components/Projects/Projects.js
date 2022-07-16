@@ -69,11 +69,53 @@ export default function Projects() {
           rel="stylesheet"
         />
         <section>
-          <div className="container">
+              <div className="container">
            
             <div className="row">
               <div className="col-md-4">
                 <h3 className="text-center mb-5">Project 1</h3>
+                <div className="card-flipper effect__hover" data-id={1}>
+                  <div className="card__front">
+                    <div className="card card-01">
+                      <div className="profile-box-01">
+                        <img
+                          className="card-img-top"
+                          src="https://png.pngtree.com/thumb_back/fh260/background/20220309/pngtree-indian-traditional-wedding-pattern-decorative-background-image_1066383.jpg"
+                          alt="Card image cap"
+                        />
+                      </div>
+                      <div className="card-body text-center">
+                        <span className="badge-box">
+                          <i className="fa fa-check" />
+                        </span>
+                        <h4 className="card-title"> TRADITIONAL_EMART</h4>
+                        <p className="card-text">
+                          This is a ECOMMERCE website which sells the TRADITIONAL
+clothes for both men and women which is built using MERN-
+stack , people who looking for traditional clothes they can pur-
+chase from women collection,men collection and wedding collec-
+tion. this application has been deployed and hosted in heroku
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__back">
+                    <div className="card card-01">
+                      <div className="card-body text-center">
+                        <h4 className="card-title"></h4>
+                        <a href= "https://traditional-emart-client2-8k3nsxwv4-sandhya076.vercel.app/">
+                          APP LINK
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+          <div className="container">
+           
+            <div className="row">
+              <div className="col-md-4">
+                <h3 className="text-center mb-5">Project 2</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
                     <div className="card card-01">
@@ -109,7 +151,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="col-md-4">
-                <h3 className="text-center mb-5">Project-2</h3>
+                <h3 className="text-center mb-5">Project-3</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
                     <div className="card card-01">
