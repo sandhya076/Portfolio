@@ -363,7 +363,7 @@ tion. this application has been deployed and hosted in heroku
                     <div className="card card-01">
                       <div className="card-body text-center">
                         <h4 className="card-title"></h4>
-                        <a href="https://vercel.com/sandhya076/google-form-client">
+                        <a href= "https://google-form-client.vercel.app/">
                           APP LINK
                         </a>
                         
