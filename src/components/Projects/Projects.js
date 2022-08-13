@@ -216,7 +216,9 @@ tion. this application has been deployed and hosted in heroku
                     <div className="card card-01">
                       <div className="card-body text-center">
                         <h4 className="card-title"></h4>
-                        <p className="card-text">app link</p>
+                        <a href="https://memory-client-18wj1o03i-sandhya076.vercel.app/">
+                          APP LINK
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -251,7 +253,7 @@ tion. this application has been deployed and hosted in heroku
                     <div className="card card-01">
                       <div className="card-body text-center">
                         <h4 className="card-title"></h4>
-                        <a href="https://todo-clien.herokuapp.com/">
+                        <a href="https://to-do-client-sigma.vercel.app/">
                           APP LINK
                         </a>
                         
@@ -335,8 +337,47 @@ tion. this application has been deployed and hosted in heroku
                   </div>
                 </div>
               </div>
-<div className="col-md-4">
+ <div className="col-md-4">
                 <h3 className="text-center mb-5">Project-7</h3>
+                <div className="card-flipper effect__hover" data-id={1}>
+                  <div className="card__front">
+                    <div className="card card-01">
+                      <div className="profile-box-01">
+                        <img
+                          className="card-img-top"
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtYdIejJSiopwUW7_4VH64b2SxgpBveHddzA&usqp=CAU"
+                          alt="Card image cap"
+                        />
+                      </div>
+                      <div className="card-body text-center">
+                        <span className="badge-box">
+                          <i className="fa fa-check" />
+                        </span>
+                        <h4 className="card-title">E-commerce</h4>
+                        <p className="card-text">
+                          This is a ECOMMERCE website which sells the TRADITIONAL
+clothes for both men and women which is built using MERN-
+stack , people who’s looking for traditional clothes they can pur-
+chase from women collection,men collection and wedding collec-
+tion. this application has been deployed and hosted in heroku
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__back">
+                    <div className="card card-01">
+                      <div className="card-body text-center">
+                        <h4 className="card-title"></h4>
+                        <a href="https://traditional-emart-client2-8k3nsxwv4-sandhya076.vercel.app/">
+                          APP LINK
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<div className="col-md-4">
+                <h3 className="text-center mb-5">Project-8</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
                     <div className="card card-01">
