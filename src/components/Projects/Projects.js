@@ -4,7 +4,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Eo_circle_light-blue_white_letter-s.svg/1200px-Eo_circle_light-blue_white_letter-s.svg.png"
           alt=""
@@ -28,10 +28,10 @@ export default function Projects() {
         </button>
         <div className="collapse navbar-collapse nav" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to = "/">
-            <a className="nav-item nav-link active" href="#">
-              Home
-            </a>
+            <Link to="/">
+              <a className="nav-item nav-link active" href="#">
+                Home
+              </a>
             </Link>
             <Link to="/Skills">
               <a className="nav-item nav-link" href="#">
@@ -59,7 +59,7 @@ export default function Projects() {
 
       <div>
         <title>Bootstrap 4 Flip Card</title>
-        
+
         <link
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet"
@@ -69,7 +69,7 @@ export default function Projects() {
           rel="stylesheet"
         />
         <section>
-              <div className="container">
+          {/* <div className="container">
            
             <div className="row">
               <div className="col-md-4">
@@ -91,11 +91,11 @@ export default function Projects() {
                         <h4 className="card-title"> TRADITIONAL_EMART</h4>
                         <p className="card-text">
                           This is a ECOMMERCE website which sells the TRADITIONAL
-clothes for both men and women which is built using MERN-
-stack , people who looking for traditional clothes they can pur-
-chase from women collection,men collection and wedding collec-
-tion. this application has been deployed and hosted in heroku
-                        </p>
+                      clothes for both men and women which is built using MERN-
+                      stack , people who looking for traditional clothes they can pur-
+                      chase from women collection,men collection and wedding collec-
+                      tion. this application has been deployed and hosted in heroku
+                                              </p>
                       </div>
                     </div>
                   </div>
@@ -109,13 +109,12 @@ tion. this application has been deployed and hosted in heroku
                       </div>
                     </div>
                   </div>
-                </div>
-              
+                </div> */}
+
           <div className="container">
-           
             <div className="row">
               <div className="col-md-4">
-                <h3 className="text-center mb-5">Project 2</h3>
+                <h3 className="text-center mb-5">Project 1</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
                     <div className="card card-01">
@@ -151,7 +150,7 @@ tion. this application has been deployed and hosted in heroku
                 </div>
               </div>
               <div className="col-md-4">
-                <h3 className="text-center mb-5">Project-3</h3>
+                <h3 className="text-center mb-5">Project-2</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
                     <div className="card card-01">
@@ -243,8 +242,8 @@ tion. this application has been deployed and hosted in heroku
                         <h4 className="card-title">To-DO</h4>
                         <p className="card-text">
                           This is a Full stack MERN application with FOUR CRUD
-                          operation. in this application we can store our
-                          todo works
+                          operation. in this application we can store our todo
+                          works
                         </p>
                       </div>
                     </div>
@@ -256,13 +255,12 @@ tion. this application has been deployed and hosted in heroku
                         <a href="https://to-do-client-sigma.vercel.app/">
                           APP LINK
                         </a>
-                        
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-<div className="col-md-4">
+              <div className="col-md-4">
                 <h3 className="text-center mb-5">Project-5</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
@@ -290,10 +288,7 @@ tion. this application has been deployed and hosted in heroku
                     <div className="card card-01">
                       <div className="card-body text-center">
                         <h4 className="card-title"></h4>
-                        <a href="https://atlan-task.vercel.app/">
-                          APP LINK
-                        </a>
-                        
+                        <a href="https://atlan-task.vercel.app/">APP LINK</a>
                       </div>
                     </div>
                   </div>
@@ -337,7 +332,7 @@ tion. this application has been deployed and hosted in heroku
                   </div>
                 </div>
               </div>
- <div className="col-md-4">
+              <div className="col-md-4">
                 <h3 className="text-center mb-5">Project-7</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
@@ -355,11 +350,13 @@ tion. this application has been deployed and hosted in heroku
                         </span>
                         <h4 className="card-title">E-commerce</h4>
                         <p className="card-text">
-                          This is a ECOMMERCE website which sells the TRADITIONAL
-clothes for both men and women which is built using MERN-
-stack , people who’s looking for traditional clothes they can pur-
-chase from women collection,men collection and wedding collec-
-tion. this application has been deployed and hosted in heroku
+                          This is a ECOMMERCE website which sells the
+                          TRADITIONAL clothes for both men and women which is
+                          built using MERN- stack , people who’s looking for
+                          traditional clothes they can pur- chase from women
+                          collection,men collection and wedding collec- tion.
+                          this application has been deployed and hosted in
+                          heroku
                         </p>
                       </div>
                     </div>
@@ -376,7 +373,7 @@ tion. this application has been deployed and hosted in heroku
                   </div>
                 </div>
               </div>
-<div className="col-md-4">
+              <div className="col-md-4">
                 <h3 className="text-center mb-5">Project-8</h3>
                 <div className="card-flipper effect__hover" data-id={1}>
                   <div className="card__front">
@@ -394,8 +391,9 @@ tion. this application has been deployed and hosted in heroku
                         </span>
                         <h4 className="card-title">Google-Form</h4>
                         <p className="card-text">
-                         This is a google form which was created by using MERN and also implemented 
-                         multer for uploading resume inthe fome
+                          This is a google form which was created by using MERN
+                          and also implemented multer for uploading resume inthe
+                          fome
                         </p>
                       </div>
                     </div>
@@ -404,10 +402,9 @@ tion. this application has been deployed and hosted in heroku
                     <div className="card card-01">
                       <div className="card-body text-center">
                         <h4 className="card-title"></h4>
-                        <a href= "https://google-form-client.vercel.app/">
+                        <a href="https://google-form-client.vercel.app/">
                           APP LINK
                         </a>
-                        
                       </div>
                     </div>
                   </div>
